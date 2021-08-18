@@ -69,6 +69,58 @@ p{
     color: crimson;
 }
 /* Hero Section */
+
+/* The side navigation menu */
+.sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0  ;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    height: 7%;
+    overflow: auto;
+    z-index: 20;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    font-size: 1.5em;
+    font-style: bold;
+    color: black;
+    padding: 50px;
+    text-decoration: none;
+    text-align: center; 
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover {
+    background-color: #4286f4;
+    color: white;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+/* End of Sidebar section*/
+
+
  #hero{
     background-image: linear-gradient(60deg, #373B44 0%, #4286f4 100%);
     background-size: cover;
