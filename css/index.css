@@ -126,7 +126,7 @@ p{
 
  #hero{
     /* background-image: linear-gradient(60deg, #373B44 0%, #4286f4 100%); */
-    background-image: linear-gradient(60deg, #003135 0%, #0FA4AF 100%);
+    background-image: linear-gradient(60deg, #03646d 0%, #0FA4AF 100%);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -261,7 +261,7 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
     justify-content: center;
     flex-direction: column;
     /* background-image: linear-gradient(60deg, #373B44 0%, #4286f4 100%); */
-    background-image: linear-gradient(60deg, #0FA4AF 0%, #003135 100%);
+    background-image: linear-gradient(60deg, #0FA4AF 0%, #03646d 100%);
     color: white;
 }
 #projects .project-info h1{
@@ -328,7 +328,7 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
     justify-content: center;
     flex-direction: column;
     /* background-image: linear-gradient(60deg, #373B44 0%, #4286f4 100%); */
-    background-image: linear-gradient(60deg, #0FA4AF 0%, #003135 100%);
+    background-image: linear-gradient(60deg, #0FA4AF 0%, #03646d 100%);
     color: white;
 }
 #projects .project-info h1{
@@ -405,7 +405,7 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 /* Footer */
 #footer{
     /* background-image: linear-gradient(60deg, #373B44 0%, #4286f4 100%); */
-    background-image: linear-gradient(60deg, #0FA4AF 0%, #003135 100%);
+    background-image: linear-gradient(60deg, #0FA4AF 0%, #03646d 100%);
 }
 #footer .footer{
     min-height: 200px;
